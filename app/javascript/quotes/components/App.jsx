@@ -1,11 +1,13 @@
 import React from 'react';
 import {BrowserRouter as Router, Route} from 'react-router-dom';
 import QuotesDisplay from './QuotesDisplay';
+import Search from './search';
 
 const App = (props) => (
     <Router startingQuoteId={props.startingQuoteId}>
         <div>
-            <Route
+        
+      <Route
                 path='/'
                 startingQuoteId={props.startingQuoteId}
                 render={(routeProps) => <QuotesDisplay {...props} {...routeProps} />}
@@ -13,7 +15,4 @@ const App = (props) => (
         </div>
     </Router>
 )
-
-
-
 export default App;

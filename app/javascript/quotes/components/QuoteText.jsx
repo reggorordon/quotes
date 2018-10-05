@@ -7,6 +7,7 @@ const QuoteText = (props) => (
         <div className='quote-text'>
             {props.quote.text}
         </div>
+        
         <div className='quote-author'>
             <em>— {props.quote.author}</em>
         </div>

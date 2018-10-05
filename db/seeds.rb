@@ -22,7 +22,20 @@ Quote.create! (
     {
       text: "If you tell the truth, you don't have to remember anything.",
       author: "Mark Twain"
+    },
+        {
+      text: "Id rather have a full bottle in front of me than a full frontal labotomy.",
+      author: "Tom Waits"
+    },
+        {
+      text: "The Sun ain't Yellow, Its Chicken",
+      author: "Bob Dylan"
+    },
+        {
+      text: "Good Night and Good Riddance.",
+      author: "John Peel"
     }
+
   ]
 )
 puts "Quotes seeded!"
